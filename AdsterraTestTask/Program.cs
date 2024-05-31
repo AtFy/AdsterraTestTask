@@ -1,3 +1,13 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using AdsterraTestTask;
 
-Console.WriteLine("Hello, World!");
+public static class Program
+{
+    public static void Main()
+    {
+        var managers = Manager.GetManagers();
+        var statuses = Status.GetStatuses();
+        var chats = Chat.GetChats();
+        
+        
+    }
+}
