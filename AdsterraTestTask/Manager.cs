@@ -35,8 +35,8 @@ public class Manager
                       	},
                           {
                               "name": "Alex M",
-                              "admin_panel_id": null,
-                              "crm_name": "",
+                              "admin_panel_id": 854,
+                              "crm_name": "a.morkovskiy",
                               "status": 1
                       	},
                           {
@@ -53,8 +53,8 @@ public class Manager
                       	},
                           {
                               "name": "Anton F",
-                              "admin_panel_id": null,
-                              "crm_name": "",
+                              "admin_panel_id": 312,
+                              "crm_name": "a.fedotov",
                               "status": 4
                       	}
                       ]

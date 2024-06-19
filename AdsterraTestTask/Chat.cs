@@ -5,9 +5,6 @@ namespace AdsterraTestTask;
 
 public class Chat
 {
-    [JsonPropertyName("name")]
-    public string Name { get; set; }
-    
     [JsonPropertyName("admin_panel_id")]
     public string AdminPanelId { get; set; }
     
@@ -19,33 +16,27 @@ public class Chat
         string json = """
                       [
                       	{
-                              "name": "j.angerson",
-                              "admin_panel_id": "",
+                              "admin_panel_id": "1346",
                               "chats_last_month": 301
                       	},
                           {
-                              "name": "premium support",
                               "admin_panel_id": "1412",
                               "chats_last_month": 331
                       	},
                           {
-                              "name": "a.xavier",
-                              "admin_panel_id": "",
+                              "admin_panel_id": "1235",
                               "chats_last_month": 45
                       	},
                           {
-                              "name": "A.XAVIER",
-                              "admin_panel_id": "",
+                              "admin_panel_id": "1413",
                               "chats_last_month": 249
                       	},
                           {
-                              "name": "n.joven",
-                              "admin_panel_id": "1235",
+                              "admin_panel_id": "1412",
                               "chats_last_month": 4
                       	},
                           {
-                              "name": "j.añejo",
-                              "admin_panel_id": "512",
+                              "admin_panel_id": "312",
                               "chats_last_month": 291
                       	}
                       ]
